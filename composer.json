@@ -1,0 +1,45 @@
+{
+    "name": "barteku/dotmailer-api-php-client",
+    "type": "library",
+    "description": "Client library for the dotMailer v2 (REST) API.",
+    "keywords": [
+        "dotMailer",
+        "API",
+        "REST",
+        "v2",
+        "version 2",
+        "client"
+    ],
+    "homepage": "https://github.com/barteku/dotmailer-api-php-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Piták",
+            "email": "roman@pitak.net",
+            "homepage": "http://pitak.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Bartosz Urbanski",
+            "email": "urbanski.bartek@gmail.com",
+            "homepage": "http://bartekurbanski.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/romanpitak/PHP-REST-Client.git"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "ext-json": "*",
+        "romanpitak/php-rest-client": ">=v1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DotMailer\\Api\\": "src/"
+        }
+    }
+}
